@@ -1,23 +1,29 @@
 import logo from './logo.svg';
 import './App.css';
+import Navbar from './Component/navbar';
+import { Grid } from '@mui/material';
+import Leftbar from './Component/leftbar';
+import Rightbar from './Component/rightbar';
+import Addplus from './Component/add';
+import Home from './Component/home';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Grid container >
+        <Grid item sm={2} >
+        <Leftbar/>
+        </Grid>
+        <Grid item sm={7} >
+          <Home/>
+        </Grid>
+        <Grid item sm={3} >
+          <Rightbar/>
+        </Grid>
+      </Grid>
+      <Addplus/>
     </div>
   );
 }

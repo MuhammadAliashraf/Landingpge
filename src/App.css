@@ -36,3 +36,107 @@
     transform: rotate(360deg);
   }
 }
+
+/* Navbar CSS Code   */
+.toolsbar{
+  display: flex;
+  justify-content: space-between;
+}
+.Search{
+  display: flex;
+  align-items: center;
+  background-color: rgb(67, 144, 231);
+  border-radius: 7px;
+  width: 30%;
+}
+.bar{
+position: sticky;
+top: 0px;
+}
+.Navitem{
+  display: flex !important;
+  align-items: center !important;
+}
+.navitem{
+  margin-right: 10px !important;
+  color:white !important
+}
+.input{
+  color: white !important ;
+  margin-left: 10px !important;
+}
+.Icons{
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between !important; */
+}
+.badge{
+  margin-right: 10px !important;
+}
+.SearchButton{
+  margin-right: 10px !important;
+}
+/* Navbar CSS Code   */
+/* left bar  */
+.left{
+  height: 100vh;
+  padding-top: 10px !important;
+  background-color: #ffffff !important;
+  position: sticky;
+  top: 0px;
+}
+.sideitem{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  margin-bottom: 40px !important;
+  color:rgb(0, 0, 0) !important; 
+}
+.feed{
+  padding-top: 20px !important;
+  /* background-color: #8db2fc !important; */
+  /* background-color: #6699ff !important; */
+}
+.rightbar{
+  padding-top: 20px !important;
+  background-color: #ffffff !important;
+  /* background-color: #282c34 !important; */
+}
+
+/* // feed  */
+.card{
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.btn{
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+/* Circle Buttom  */
+.Tooltip{
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+}
+/* FormPage css */
+/* .FormPage{
+  width: 450px !important;
+  height: 90vh;
+  background-color: white !important;
+  border: 2px solid black;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  margin: "auto";
+} */
+.links{
+  display: flex;
+  margin-top: 10px !important;
+  margin-right: 5px !important;
+  color: #282c34 !important;
+  font-size: 16px !important ;
+}
